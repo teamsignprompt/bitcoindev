@@ -1,7 +1,3 @@
----
-title: Bitcoin Quick Start for Developers
-
----
 # Bitcoin Dev Quickstart 
 
 This step-by-step tutorial provides a hands-on walkthrough for quickly getting up and running with Bitcoin basics, from a developer's perspective. From building and installation of the headless Bitcoin daemon (bitcoind), interacting with it using the command line, and building a demo C++ application that can send RPC commands and process responses.
