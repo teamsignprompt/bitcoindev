@@ -4,9 +4,9 @@ This step-by-step tutorial provides a hands-on walkthrough for quickly getting u
 
 The tutorial is written for Ubuntu 18.04. Adjust accordingly for your own environment.
 
-# Preliminary Steps
+## Preliminary Steps
 
-## Install Prerequisites
+1. Install Prerequisites
 
 Install the following dependencies.
 
@@ -66,7 +66,7 @@ Example response:
 /usr/local/bin/bitcoin-cli
 ```
 
-Configure the Daemon
+## Configure the Daemon
 
 1. Download a sample configuration file
 
@@ -111,7 +111,7 @@ rpcauth=user:bf2a249c8580766a1e4fcd9f777533b0$700645074a2f4a4ffd35cf1ec7ada6d8f1
 
 ```
 
-# Running and Testing bitcoind
+## Running and Testing bitcoind
 
 1. Start the daemon
 
@@ -180,7 +180,7 @@ Loading block index..
 
 If you see this kind of error, wait another second or two and try again.
 
-The RPC Interface
+## The RPC Interface
 
 1. Start the daemon (if stopped).
 
@@ -212,7 +212,7 @@ Example response:
 {"result":{"chain":"main","blocks":229810,"headers":641062,"bestblockhash":"000000000000019606fe717e1ec8832aadd0b531a9fdb3fc9b66d4396e4c0e6c","difficulty":6695826.282596251,"mediantime":1365171545,"verificationprogress":0.02829406551238997,"initialblockdownload":true,"chainwork":"0000000000000000000000000000000000000000000000340a2573e03179ff18","size_on_disk":7956125601,"pruned":false,"softforks":{"bip34":{"type":"buried","active":true,"height":227931},"bip66":{"type":"buried","active":false,"height":363725},"bip65":{"type":"buried","active":false,"height":388381},"csv":{"type":"buried","active":false,"height":419328},"segwit":{"type":"buried","active":false,"height":481824}},"warnings":"This is a pre-release test build - use at your own risk - do not use for mining or merchant applications"},"error":null,"id":"curltest"}
 ```
 
-# Demo Example C++
+## Demo Example C++
 
 1. Install the following:
 
@@ -318,7 +318,7 @@ Example response:
 {"result":{"chain":"main","blocks":303520,"headers":641075,"bestblockhash":"000000000000000024450e52f5d08622114b503713243aab15f3f7f989e76267","difficulty":10455720138.48484,"mediantime":1401561878,"verificationprogress":0.07238580672791109,"initialblockdownload":true,"chainwork":"000000000000000000000000000000000000000000007829790f458ed3674540","size_on_disk":22091527638,"pruned":false,"softforks":{"bip34":{"type":"buried","active":true,"height":227931},"bip66":{"type":"buried","active":false,"height":363725},"bip65":{"type":"buried","active":false,"height":388381},"csv":{"type":"buried","active":false,"height":419328},"segwit":{"type":"buried","active":false,"height":481824}},"warnings":"This is a pre-release test build - use at your own risk - do not use for mining or merchant applications"},"error":null,"id":"curltest"}
 ```
 
-# Congratulations!
+## Congratulations!
 
 You have successfully installed and run the Bitcoin bitcoind daemon, and created a command line application to interact with it to fetch information.
 
